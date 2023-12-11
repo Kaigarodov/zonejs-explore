@@ -1,6 +1,11 @@
 import './style.css'
 import 'zone.js';
 import { setupCounter } from './counter.ts'
+
+//explore
+//https://angular.io/guide/zone#zones-and-async-lifecycle-hooks
+
+
 console.log(Zone.current)
 
 let rootZone: Zone = Zone.current
